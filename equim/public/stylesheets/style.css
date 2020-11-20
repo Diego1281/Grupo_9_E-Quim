@@ -57,7 +57,7 @@ header .col-1 {
   padding: 1% 4% 1% 4%;
 }
 header a{
-  color: black;
+  color: rgba(0, 0, 0, 0.822);
 }
 
 header .container-fluid .row .col-4 {
