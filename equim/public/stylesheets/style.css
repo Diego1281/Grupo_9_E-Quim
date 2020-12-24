@@ -84,19 +84,20 @@ section .contenido {
 
 /* footer */
 footer{
-  text-align: center;
   background-color: var(--color-turquesaClaro);
 }
 
 .footer ul{
  
-  display: block;
+  display: flex;
+  justify-content: center;
   padding: 40px 0;
+  
 }
 
 footer li{
-  display: block;
   padding: 10px 10px;
+  list-style: none;
 }
 
 footer a{

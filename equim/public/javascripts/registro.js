@@ -9,7 +9,7 @@ window.addEventListener('load', () => {
     let inputPassword2 = document.getElementById('inputPassword2');
     let inputNombre = document.getElementById('inputNombre');
     let inputApellido = document.getElementById('inputApellido');
-    let form = document.getElementById('form');
+    let formReg = document.getElementById('formReg');
     let formLogin = document.getElementById('formLogin');
 
 
@@ -169,7 +169,7 @@ window.addEventListener('load', () => {
         apellidoValidator()
     })
     
-    form.addEventListener('submit', function(event){
+    formReg.addEventListener('submit', function(event){
         let error = false;
         event.preventDefault()
 
@@ -180,7 +180,7 @@ window.addEventListener('load', () => {
                 elementosForm[index].classList.add('is-invalid');
                 error = true
             }else{
-                form.submit()
+                formReg.submit()
             }   
         }
     })
