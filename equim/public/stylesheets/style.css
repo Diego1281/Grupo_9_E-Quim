@@ -34,13 +34,24 @@ header ul li{
   display: flex;
   
 }
-h2{
+/*h2{
   text-align: center;
   margin: 0 auto;
   padding-bottom: 2%;
   border: var(--color-turquesaClaro) 3px outset;
   background-color: var(--color-celesteClarito);
+}*/
+
+h2{
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 2%;
+  border-bottom: 1px solid var(--color-turquesaOscuro);
+  background-color: var(--color-celesteClarito);
 }
+
 p{
   text-align: center;
   font-size: 25px;
@@ -55,9 +66,14 @@ h3{
 }
 header .col-1 {
   padding: 1% 4% 1% 4%;
+ 
+}
+header .col-1 a i{
+  color: var(--color-gris);
 }
 header a{
   color: rgba(0, 0, 0, 0.822);
+  
 }
 
 header .container-fluid .row .col-4 {
@@ -73,13 +89,53 @@ header ul {
   margin-top: 1%;
 }
 
-section .contenido {
+/*section .contenido {
   margin-bottom: 30px;
   border-radius: 5px;
   padding: 5px;
   text-align: center;
   border: var(--color-turquesaClaro) 3px outset;
   background-color: var(--color-celesteClarito);
+}*/
+
+section .contenido {
+  margin-bottom: 30px;
+  border-radius: 20px;
+  height: 400px;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid var(--color-turquesaOscuro);
+  background-color: white;
+  margin-top:30px;
+}
+
+section .imagen-prod{
+  height: 70%;
+  background-color: white;
+}
+
+section .contenido img{
+  border-radius: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+section article h3{
+  margin-top: 10px;
+}
+
+section article p{
+  text-transform: uppercase;
+  font-size: .95em;
+  margin-top: 20px;
+}
+
+section article .botones{
+  background-color:white;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid var(--color-turquesaOscuro);
 }
 
 /* footer */
