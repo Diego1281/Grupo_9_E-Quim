@@ -16,7 +16,6 @@
 body {
   font-family: Narrow;
   font-weight: 300;
-  background-color: var(--color-celesteClarito);
 }
 /* HEADER*/
 header {
@@ -49,7 +48,6 @@ h2{
   margin-bottom: 30px;
   padding: 2%;
   border-bottom: 1px solid var(--color-turquesaOscuro);
-  background-color: var(--color-celesteClarito);
 }
 
 p{
@@ -98,6 +96,7 @@ header ul {
   background-color: var(--color-celesteClarito);
 }*/
 
+
 section .contenido {
   margin-bottom: 30px;
   border-radius: 20px;
@@ -117,7 +116,10 @@ section .imagen-prod{
 section .contenido img{
   border-radius: 10px;
   margin-bottom: 10px;
-  width: 100%;
+  width: 75%;
+}
+section .contenido article{
+  display: block;
 }
 
 section article h3{
